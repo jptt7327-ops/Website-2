@@ -1,37 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="ne">
 <head>
-    <title>My First Website</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            text-align:center;
-            background:#f0f0f0;
-            padding:50px;
-        }
-        h1{
-            color:blue;
-        }
-        button{
-            padding:10px 20px;
-            font-size:18px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunil Mukhiya</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.profile{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:white;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+
+section{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
 </head>
+
 <body>
 
-<h1>नमस्ते 🙏</h1>
-<h2>मेरो पहिलो वेबसाइट</h2>
+<header>
+<div class="profile">👤</div>
+<h1>Sunil Mukhiya</h1>
+<p>Student | Mathematics Learner | Technology Enthusiast</p>
+</header>
 
-<p>यो वेबसाइट GitHub Pages प्रयोग गरेर बनाइएको हो।</p>
+<section>
 
-<button onclick="showMessage()">Click Me</button>
+<div class="card">
+<h2>मेरो बारेमा</h2>
+<p>
+नमस्ते! म Sunil Mukhiya हुँ।
+म गणित, विज्ञान, प्रविधि र नयाँ कुरा सिक्न रुचाउँछु।
+</p>
+</div>
 
-<script>
-function showMessage(){
-    alert("स्वागत छ मेरो वेबसाइटमा!");
-}
-</script>
+<div class="card">
+<h2>मेरो रुचिहरू</h2>
+<ul>
+<li>Mathematics</li>
+<li>Science</li>
+<li>Technology</li>
+<li>Website Development</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>सम्पर्क</h2>
+<p>Email: your@email.com</p>
+<p>Facebook: Your Facebook Link</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Sunil Mukhiya
+</footer>
 
 </body>
 </html>
